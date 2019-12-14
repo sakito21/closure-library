@@ -418,12 +418,6 @@ goog.inherits(goog.net.WebChannel.ErrorEvent, goog.events.Event);
  */
 goog.net.WebChannel.ErrorEvent.prototype.status;
 
-/**
- * The internal error code for lower-level errors.  Subject to change!
- *
- * @type {number}
- */
-goog.net.WebChannel.ErrorEvent.prototype.errorCode;
 
 /**
  * @return {!goog.net.WebChannel.RuntimeProperties} The runtime properties
